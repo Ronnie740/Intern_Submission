@@ -1,0 +1,81 @@
+// app global css in SCSS form
+main.flex-center.q-page {
+    padding-left: 150px;
+    font-family: auto;
+    margin-top: 150px;
+}
+
+ol {
+    font-family: auto;
+    list-style-type: decimal-leading-zero;
+    width: 250px;
+}
+
+button.q-btn.q-btn-item.non-selectable.no-outline.q-btn--push.q-btn--rectangle.bg-accent.text-primary.q-btn--actionable.q-focusable.q-hoverable.q-btn--wrap {
+    width: 150px;
+    border-radius: 20px;
+}
+.q-tabs.row.no-wrap.items-center.q-tabs--not-scrollable.q-tabs--horizontal.q-tabs__arrows--inside {
+    width: 25%;
+    color: grey;
+}
+.q-toolbar.row.no-wrap.items-center {
+    width: 15%;
+}
+header.q-header.q-layout__section--marginal.bg-primary.text-grey.fixed-top {
+    float: left;
+    display: inline-flex;
+}
+.q-toolbar__title.ellipsis {
+    color: black;
+    font-weight: bolder;
+    font-size:15px;
+}
+.q-tab__label {
+    font-size: 13px;
+    line-height: 1.715em;
+    font-weight: 500;
+    text-transform: initial;
+}
+h3{
+    font-weight: bolder;
+    width: 450px;
+}
+.color_block{
+    width: 45%;
+    height: 90vh;
+    margin-left: 50%;
+    margin-top: -75vh;
+    margin-right: 5%;
+    height: 100vh;
+    background-color: rgb(125, 188, 237);
+    border-radius: 40px;
+}
+.q-toolbar .q-avatar {
+    font-size: 20px;
+}
+#logo{
+    background-color:rgb(101, 175, 232);
+    width:9px;
+    height:9px;
+    opacity: 0.6;
+}
+#logo2{
+    background-color: rgb(90, 180, 248);
+    position:relative;
+    left:-6px;
+    top:4px;
+    width: 9px;
+    height: 9px;
+}
+button.q-btn.q-btn-item.non-selectable.no-outline.q-btn--flat.q-btn--round.q-btn--actionable.q-focusable.q-hoverable.q-btn--wrap.q-btn--dense {
+    margin-top: 5px;
+}
+.q-avatar__content.row.flex-center.overflow-hidden {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.q-badge.flex.inline.items-center.no-wrap.q-badge--single-line.bg-red.q-badge--floating.q-badge--transparent {
+    border-radius: 49%;
+}
